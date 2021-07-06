@@ -1,6 +1,7 @@
 body{
     font-family: 'Permanent Marker', cursive;
     font-family: 'Poppins', sans-serif; 
+    margin: 0px; 
 }
 
 .orange-color{
@@ -9,6 +10,7 @@ body{
 }
 section{
     display: flex;
+    margin-bottom:100px ;
 
 }
 
@@ -28,4 +30,15 @@ section{
     border-radius: 5px;
 
 
+}
+
+.top-banner{
+    background-image: url(image/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.dream-big{
+    background-image: url(image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
